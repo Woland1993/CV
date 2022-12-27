@@ -10,7 +10,7 @@
         "MyCv": {
             "projectType": "application",
             "schematics": {},
-            "root": "",
+            "root": "CV",
             "sourceRoot": "src",
             "prefix": "app",
             "architect": {
@@ -98,7 +98,7 @@
                     }
                 },
                 "deploy": {
-                  "builder": "angular-cli-ghpages:deploy"
+                    "builder": "angular-cli-ghpages:deploy"
                 }
             }
         }
