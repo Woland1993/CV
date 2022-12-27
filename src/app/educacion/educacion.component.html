@@ -1,0 +1,25 @@
+<div class="text-bluegray-900">
+    <p class="tahoma text-2xl -mb-1 font-bold">
+        EDUCACIÓN
+    </p>
+    <hr class="text-2xl">
+</div>
+
+<div *ngFor="let i of eeducacionList" class="-mb-1 grid">
+    <div class="col-2">
+        <i class="pi pi-plus-circle text-3xl"></i>
+    </div>
+    <div class="-ml-4">
+        <div class="grid -mb-4 text-justify">
+            <p class="tahoma text-bluegray-900 text-1xl font-bold">
+                {{i.titulo}} &nbsp;
+            </p>
+            <p class="tahoma text-bluegray-400 text-1xl">
+                / {{i.anio}}
+            </p>
+        </div>
+        <p class="text-bluegray-800 text-justify tahoma font-medium -mb-25" *ngFor="let e of i.cuerpo">
+            {{e}}
+        </p>
+    </div>
+</div>
