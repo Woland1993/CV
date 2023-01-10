@@ -1,28 +1,12 @@
-<div class="md:max-w-full sm:max-w-full  cuerpo ">
-    <app-banner></app-banner>
-    <div class="grid hoja">
-        <div class="col-1 -mr-5"></div>
-        <div class="col-5">
-            <app-objetivo [cuerpo]="objetivo.cuerpo"></app-objetivo>
+<div class="flex align-items-center justify-content-center grid">
+    <div class=" full-mil hoja grid ">
+        <app-banner class="lg:col-12 xl:col-12 sm:col-12 md:col-12 "></app-banner>
+        <div class=" grid xl:pl-6 xl:pr-1 lg:col-12 xl:col-12 sm:col-12 md:col-12">
+            <app-objetivo class="lg:col-4 xl:col-5 sm:col-12 md:col-12 xl:mr-5" [cuerpo]="objetivo.cuerpo"></app-objetivo>
+            <app-educacion class="lg:col-4 xl:col-6 sm:col-12 md:col-12 xl:ml-5" [eeducacionList]="educacionList"></app-educacion>
+            <app-experiencia class="lg:col-4 xl:col-5 sm:col-12 md:col-12 xl:mr-5" [experienciaList]="experienciaList"></app-experiencia>
+            <app-stack-desarrollo class="lg:col-4 xl:col-6 sm:col-12 md:col-12 xl:ml-5"></app-stack-desarrollo>
+            <app-skills class="lg:col-4 xl:col-5 sm:col-12 md:col-12 xl:mr-5"></app-skills>
         </div>
-        <div class="col-1 -mr-5"></div>
-        <div class="col-5">
-            <app-educacion [eeducacionList]="educacionList">
-            </app-educacion>
-        </div>
-        <div class="col-1 -mr-5 "></div>
-        <div class="col-5 -mt-8">
-            <app-experiencia [experienciaList]="experienciaList"></app-experiencia>
-        </div>
-        <div class="col-1 -mr-5"></div>
-        <div class="col-5">
-            <app-stack-desarrollo></app-stack-desarrollo>
-        </div>
-        <div class="col-1 -mr-5"></div>
-        <div class="col-5 -mt-8">
-            <app-skills></app-skills>
-        </div>
-        <div class="col-1 -mr-5"></div>
-        <div class="col-1"></div>
     </div>
 </div>

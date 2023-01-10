@@ -6,11 +6,11 @@
 </div>
 
 <div *ngFor="let i of eeducacionList" class="-mb-1 grid">
-    <div class="col-2">
+    <div class="xl:col-2 lg:col-2 md:col-1 sm:col-1 sm:plus md:w-1 sm:w-1 mr-3">
         <i class="pi pi-plus-circle text-3xl"></i>
     </div>
-    <div class="-ml-4">
-        <div class="grid -mb-4 text-justify">
+    <div class=" ">
+        <div class="grid -mb-4 text-justify sm:ml-3 md:ml-3">
             <p class="tahoma text-bluegray-900 text-1xl font-bold">
                 {{i.titulo}} &nbsp;
             </p>
@@ -18,7 +18,7 @@
                 / {{i.anio}}
             </p>
         </div>
-        <p class="text-bluegray-800 text-justify tahoma font-medium -mb-25" *ngFor="let e of i.cuerpo">
+        <p class="text-bluegray-800 text-justify tahoma font-medium -mb-25 sm:ml-3 sm:mr-3" *ngFor="let e of i.cuerpo">
             {{e}}
         </p>
     </div>

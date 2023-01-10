@@ -4,8 +4,31 @@
     border-radius: 50%;
 }
 
-.circuloSombra {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
+.cuadradoSombra {
+    width: 110 px;
+    height: 110 px;
+}
+
+@media(min-width: 992px) {
+    .foto-null {
+        flex: 0 0 auto;
+        padding: 0.5rem;
+        width: 1.3333%;
+    }
+}
+
+@media(max-width: 991px) {
+    .foto-null {
+        flex: 0 0 auto;
+        padding: 0.5rem;
+        width: 38.3333%;
+    }
+}
+
+@media (max-width: 767px) {
+    .foto-min {
+        flex: 0 0 auto;
+        padding: 0.5rem;
+        width: 25.3333%;
+    }
 }

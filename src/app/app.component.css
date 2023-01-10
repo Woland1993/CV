@@ -1,9 +1,19 @@
-.cuerpo {
+/*.cuerpo {
     width: 1200px;
     height: 100px;
     margin: 0px auto;
 }
 
+*/
+
 .hoja {
     background: #FAFAFA;
+}
+
+@media(min-width: 1900px) {
+    .full-mil {
+        flex: 0 0 auto;
+        padding: 0.5rem;
+        width: 58.3333%;
+    }
 }
