@@ -1,8 +1,6 @@
 import { Component,HostListener} from '@angular/core';
-import {Message,MessageService} from 'primeng/api';
 import { PrimeNGConfig } from 'primeng/api';
-import { trigger, state, style, transition, animate } from '@angular/animations'; 
-
+import { dominio } from '../config';
 @Component({
   selector: 'app-menubar',
   templateUrl: './menubar.component.html',
@@ -13,7 +11,7 @@ export class MenubarComponent {
   isTransparent: boolean = false;
   isDescargando: boolean = false;
   isDisabled:boolean = false;
-  msgs1: Message[]=[];
+  dominio:string=dominio;
 
   constructor( private primengConfig: PrimeNGConfig) {
   }
