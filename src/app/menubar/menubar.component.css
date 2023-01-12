@@ -1,0 +1,65 @@
+.circulo {
+    border-radius: 40px;
+}
+
+.circulo-derecho {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.menubar {
+    position: fixed;
+    /* Hace que la etiqueta se mantenga en su posición, incluso al hacer scroll */
+    left: 50%;
+    /* Mueve la etiqueta a la mitad de la pantalla horizontalmente */
+    bottom: 5%;
+    /* Mueve la etiqueta al final de la pantalla en el eje Y */
+    transform: translate(-50%, 0);
+    /* Desplaza la etiqueta hacia la izquierda en 50% de su tamaño */
+    width: 300px;
+    height: 50px;
+}
+
+.message-pdf {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    height: 50px;
+    border-bottom: 4px solid #4caf50;
+}
+
+.message-check {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.transparent {
+    opacity: 15%;
+}
+
+.transparent-full {
+    opacity: 0%;
+}
+
+.vl2 {
+    border-left: 5px solid #f7f9f9;
+}
+
+@keyframes bajar {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 100px;
+    }
+}
+
+.bajar-message {
+    animation: bajar 1s;
+}

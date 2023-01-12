@@ -1,0 +1,32 @@
+<div [ngClass]="{'transparent': isTransparent}" class="grid bg-bluegray-900 circulo menubar shadow-8 ">
+    <div class="col-3 -mt-3 -mb-3">
+        <p class=" col-8 tahoma text-bluegray-50 ">
+            Descargar:
+        </p>
+    </div>
+    <div class=" col-9 -mt-4 -mb-4 ml-5 -mr-8">
+        <p class="tahoma text-bluegray-100 text-2xl ">
+            |
+            <a href="assets/MarioEstradaCV.pdf" download (click)="addMessages()" [class.disabled]="isDisabled">
+                <i title="Descargar cv como pdf" class=" pi pi-file-pdf ml-2 mr-1 cursor-pointer hover:text-red-700 "></i>
+            </a>
+            |
+            <a href="assets/cv 2023-01-11 163232.png" download (click)="addMessages()" [class.disabled]="isDisabled">
+                <i title="Descargar cv como imagen PNG" class="pi pi-image ml-1 mr-1 cursor-pointer hover:text-primary-400"></i> |
+            </a>
+        </p>
+
+    </div>
+</div>
+
+<div [ngClass]="{'transparent-full': !isDescargando,'bajar-message':isDescargando}" class=" grid bg-bluegray-600 circulo-derecho  shadow-8 message-pdf">
+    <div class=" bg-bluegray-900 message-check col-4">
+        <i class=" pi pi-check-circle text-4xl text-green-500"></i>
+    </div>
+
+    <p class="tahoma col-offset-4 col-6  mt-2 text-1xl text-green-100 ">Descargando!</p>
+    <p>
+        <i class=" col-2 pi pi-times text-1xl -mt-1 text-bluegray-900  cursor-pointer hover:text-green-500" (click)="endMessages()"></i>
+    </p>
+
+</div>

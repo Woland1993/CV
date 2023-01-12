@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { dominio } from '../config';
 
 @Component({
   selector: 'app-skills',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent {
+
+  dominio:string=dominio;
 
 }
