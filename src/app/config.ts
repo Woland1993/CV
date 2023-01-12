@@ -1,2 +1,2 @@
-// ** export const dominio="..\\assets\\"; **//
-export const dominio="CV\\assets\\";
+ export const dominio="..\\assets\\"; 
+//export const dominio="CV\\assets\\";
