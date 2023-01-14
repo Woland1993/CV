@@ -1,12 +1,14 @@
 <div class="flex align-items-center justify-content-center grid">
     <div class=" full-mil hoja grid shadow-8">
         <app-banner class="lg:col-12 xl:col-12 sm:col-12 md:col-12 "></app-banner>
-        <div class=" grid xl:pl-6 xl:pr-1 lg:col-12 xl:col-12 sm:col-12 md:col-12 ">
-            <app-objetivo class="lg:col-4 xl:col-5 sm:col-12 md:col-12 xl:mr-5" [cuerpo]="objetivo.cuerpo"></app-objetivo>
-            <app-educacion class="lg:col-4 xl:col-6 sm:col-12 md:col-12 xl:ml-5" [eeducacionList]="educacionList"></app-educacion>
-            <app-experiencia class="lg:col-4 xl:col-5 sm:col-12 md:col-12 xl:mr-5" [experienciaList]="experienciaList"></app-experiencia>
-            <app-stack-desarrollo class="lg:col-4 xl:col-6 sm:col-12 md:col-12 xl:ml-5"></app-stack-desarrollo>
-            <app-skills class="lg:col-4 xl:col-5 sm:col-12 md:col-12 xl:mr-5"></app-skills>
+        <div class=" flex flex-column  xl:ml-4 xl:mr-5 lg:col-5 xl:col-5 sm:col-12 md:col-12 ">
+            <app-objetivo class="lg:col-12 xl:col-12 sm:col-12 md:col-12  " [cuerpo]="objetivo.cuerpo"></app-objetivo>
+            <app-experiencia class="lg:col-12 xl:col-12 sm:col-12 md:col-12 " [experienciaList]="experienciaList"></app-experiencia>
+            <app-skills class="lg:col-12 xl:col-12 sm:col-12 md:col-12 "></app-skills>
+        </div>
+        <div class=" flex flex-column   xl:pl-4 xl:pr-5 lg:col-6 xl:col-6 sm:col-12 md:col-12 ">
+            <app-educacion class="lg:col-12 xl:col-12 sm:col-12 md:col-12 xl:ml-5" [eeducacionList]="educacionList"></app-educacion>
+            <app-stack-desarrollo class="lg:col-12 xl:col-12 sm:col-12 md:col-12 xl:m-5"></app-stack-desarrollo>
         </div>
         <div class="grid xl:col-12 ">
             <app-menubar>

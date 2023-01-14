@@ -5,8 +5,20 @@
         </p>
         <hr class="text-2xl">
     </div>
-
-    <div *ngFor="let i of experienciaList" class=" grid ml-3 ">
+    <div *ngIf="experienciaList.length>0" class="text-bluegray-800 text-justify ml-3">
+        <div class="grid -mb-4 ml-1 text-justify">
+            <p class="tahoma text-bluegray-900 text-1xl font-bold">
+                {{experienciaList[0].titulo}} &nbsp;
+            </p>
+            <p class="tahoma text-bluegray-400 text-1xl">
+                / {{experienciaList[0].anio}}
+            </p>
+        </div>
+        <p class="tahoma font-medium sm:ml-2 sm:mr-2">
+            {{experienciaList[0].cuerpo}}
+        </p>
+    </div>
+    <div *ngFor="let i of experienciaList.slice(1)" class=" grid ml-3 ">
         <div class="col-1 -mt-8 vl2 ">
             <h1 class="text-7xl ">.</h1>
             <div class="vl -mt-7 ml-2"></div>

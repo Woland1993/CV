@@ -1,5 +1,7 @@
 import { Component ,OnInit,Input } from '@angular/core';
 import { Experiencia } from '../dominio/experiencia';
+import { CommonModule } from '@angular/common';  
+import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-experiencia',

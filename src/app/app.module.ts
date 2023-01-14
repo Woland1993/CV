@@ -15,6 +15,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 
 import {MessagesModule} from 'primeng/messages';
 import {MessageModule} from 'primeng/message';
+import { PerfilComponent } from './perfil/perfil.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import {MessageModule} from 'primeng/message';
     ExperienciaComponent,
     StackDesarrolloComponent,
     SkillsComponent,
-    MenubarComponent,    
+    MenubarComponent,
+    PerfilComponent,    
   ],
   imports: [
     BrowserModule,
