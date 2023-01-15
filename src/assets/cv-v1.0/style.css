@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'cv';
+  src:
+    url('fonts/cv.ttf?g6k0kk') format('truetype'),
+    url('fonts/cv.woff?g6k0kk') format('woff'),
+    url('fonts/cv.svg?g6k0kk#cv') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cv' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-spring:before {
+  content: "\e900";
+}
+.icon-azure:before {
+  content: "\e901";
+}
+.icon-boostrap:before {
+  content: "\e902";
+}
+.icon-eclipse:before {
+  content: "\e903";
+}
+.icon-exel:before {
+  content: "\e904";
+}
+.icon-github:before {
+  content: "\e905";
+}
+.icon-gitlaf:before {
+  content: "\e906";
+}
+.icon-netbeans:before {
+  content: "\e907";
+}
+.icon-officina:before {
+  content: "\e908";
+}
+.icon-team:before {
+  content: "\e909";
+}
+.icon-word:before {
+  content: "\e90a";
+}
