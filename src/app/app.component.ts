@@ -41,13 +41,13 @@ export class AppComponent implements OnInit {
   }
 
   loadExperiencia() {
-    this.experienciaList.push(new Experiencia("Resumen","2018 - 2023","Tengo experiencia en el desarrollo de sistemas de alto impacto. Mi experiencia incluye el desarrollo de sistemas de facturación en línea, sistemas de gestión de productos virtuales en empresas de telecomunicaciones y he trabajado con sistemas bancarios. Me he especializado en el análisis y desarrollo del lado del backend, pero también tengo conocimientos sólidos en el desarrollo del lado del frontend."));
+    this.experienciaList.push(new Experiencia("Resumen","2018 - 2023"," Mi experiencia incluye el desarrollo de sistemas de facturación en línea, sistemas de gestión de productos virtuales en empresas de telecomunicaciones y he trabajado con sistemas bancarios. Me he especializado en el análisis y desarrollo del lado del backend, pero también tengo conocimientos sólidos en el desarrollo del lado del frontend."));
 
     this.experienciaList.push(new Experiencia("Vicer Solutions (Colombia)", "2022",
       "Ayudé en el análisis, diseño y desarrollo de la ampliación de funcionalidades de un sistema de facturación en línea con una estructura de microservicios, para una empresa colombiana. En mis labores utilicé Java, Springboot, Git, Azure DevOps, NoSQL, Angular y Amazon Web Services."));
     
       this.experienciaList.push(new Experiencia("Jumay", " 2020 - 2021",
-      "Realicé una migración de base de datos, cree reportes con Jasper Report, solucioné bugs en desarrollos web hechos en Angular y servicios web hechos en Java EE. Para G&T Continental."));
+      "Realicé una migración de base de datos, creé reportes con Jasper Report, solucioné bugs en desarrollos web hechos en Angular y servicios web hechos en Java EE, paara G&T Continental."));
 
     this.experienciaList.push(new Experiencia("Avantia Consultores", "2018 - 2020",
       "Diseñé y desarrollé un sistema de Servicios Web utilizando Java EE para un portal web de autogestión de usuarios corporativos para la empresa de telecomunicaciones Claro. Tuve a mi cargo el diseño e implementación de bases de datos en Oracle, y también desarrollé un Dashboard como portal web interno.")
