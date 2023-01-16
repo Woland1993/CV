@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "Resumen",
+        "anio": "2018 - 2023",
+        "cuerpo": "Mi experiencia incluye el desarrollo de sistemas de facturación en línea, sistemas de gestión de productos virtuales en empresas de telecomunicaciones además de haber trabajado con sistemas bancarios. Estoy especializado en el análisis y desarrollo de sistemas backend, pero también tengo conocimientos sólidos en el desarrollo frontend."
+    },
+    {
+        "titulo": "Vicer Solutions (Colombia)",
+        "anio": "2022",
+        "cuerpo": "Ayudé en el análisis, diseño y desarrollo de la ampliación de funcionalidades de un sistema de facturación en línea con una estructura de microservicios, para una empresa colombiana. En mis labores utilicé Java, Springboot, Git, Azure DevOps, NoSQL, Angular y Amazon Web Services."
+    },
+    {
+        "titulo": "Jumay",
+        "anio": " 2020 - 2021",
+        "cuerpo": "Realicé una migración de base de datos, creé reportes con Jasper Report, solucioné bugs en desarrollos web hechos en Angular y servicios web hechos en Java EE, para G&T Continental."
+    },
+    {
+        "titulo": "Avantia Consultores",
+        "anio": "2018 - 2020",
+        "cuerpo": "Diseñé y desarrollé un sistema de Servicios Web utilizando Java EE para un portal web de autogestión de usuarios corporativos para la empresa de telecomunicaciones Claro. Tuve a mi cargo el diseño e implementación de bases de datos en Oracle, y también desarrollé un Dashboard como portal web interno."
+    }
+]
